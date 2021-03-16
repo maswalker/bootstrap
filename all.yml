@@ -1,0 +1,10 @@
+apps:
+  - script: './dist/api.js'
+    name: 'xxx_api'
+    exec_mode: 'cluster'
+    instances: 1
+
+  - script: './dist/admin.js'
+    name: 'xxx_admin'
+    exec_mode: 'cluster'
+    instances: 1
